@@ -6,7 +6,7 @@ if [[ $# -ne 2 ]]
 then
 	echo "Enter script arguments:" 
 	echo "The first one - a path to a log file."
-	echo "The second one - a name of a file to save the result."
+	echo "The second one - a name of the file to save a result."
 	exit 1
 elif [[ -f $1 ]]
 then

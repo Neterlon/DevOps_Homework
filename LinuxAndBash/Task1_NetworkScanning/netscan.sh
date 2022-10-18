@@ -14,13 +14,13 @@ function usage {
 		hosts in the current subnet.
 		Use an address of a network and network prefix separated
 		by a slash in the target specification.
-		Target specification example: 192.168.1.0/24 
+		Target specification example: 192.168.1.0/24
+		Use sudo to see host names!
 
 	--target {target specification}
 		Displays a list of open TCP ports of the selected host.
 		Use an address of a host in the target specification.
 		Target specification example : 192.168.1.100
-
 EOF
 }
 
